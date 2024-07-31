@@ -30,18 +30,22 @@ Download the required files:
 1. Log in to your AWS Account.
 2. Open your **S3** service.
 3. Create a new bucket:
-    - Name the bucket: `your-name-netflix-data`
+    - Name the bucket.
     - Select the region closest to you.
     - Keep the rest of the settings as default, and create the bucket.
+  
+![image](https://github.com/user-attachments/assets/c477157a-666d-47e1-8874-c87880c91421)
 
 4. Upload the CSV file and the JSON file into the bucket.
 5. Copy the S3 URL of your CSV file.
 6. Open the manifest.json file in your text editor.
-7. Replace the URL in the manifest.json file with the S3 URL of your CSV dataset.
-8. Re-upload the edited manifest.json file into your bucket, which will automatically replace the existing one.
 
-### Screenshot of S3 Bucket
-![S3 Bucket Screenshot](path_to_screenshot)
+![image](https://github.com/user-attachments/assets/b6b7cb27-702f-4071-9ce9-dbd476caed64)
+
+8. Replace the URL in the manifest.json file with the S3 URL of your CSV dataset.
+9. Re-upload the edited manifest.json file into your bucket, which will automatically replace the existing one.
+
+![image](https://github.com/user-attachments/assets/f56bed41-086c-40a2-beb8-2e53e81a1227)
 
 ---
 
@@ -53,8 +57,7 @@ Download the required files:
 4. Enter your details for your QuickSight account.
 5. Select **Finish**.
 
-### Screenshot of QuickSight Success Page
-![QuickSight Success](path_to_screenshot)
+![image](https://github.com/user-attachments/assets/cf67e0dc-86d0-47ad-aed8-f60125838fd1)
 
 ---
 
@@ -67,55 +70,23 @@ Download the required files:
 5. Select **Connect**.
 6. Select **Visualize**.
 
-### Screenshot of S3 Connection Setup
-![S3 Connection Setup](path_to_screenshot)
+![image](https://github.com/user-attachments/assets/fb0a1c09-5447-4029-b3d3-f4f4c2e8e207)
+![image](https://github.com/user-attachments/assets/a84f32f0-195d-485e-9b6f-641707f1599f)
 
 ---
 
-## Step #5: Create Your First QuickSight Visualization
+## Step #5: Create QuickSight Visualization
 
 1. Drag `release_year` into the Y-Axis heading.
-2. Change the chart type to a donut chart.
-
+2. Change the chart type to a don
 ### Screenshot of First Visualization
 ![First Visualization](path_to_screenshot)
 
 ---
 
-## Step #6: QuickSight Treasure Hunt
+## Step #7: Finial Result
 
-1. **Task 1:** Create a stacked bar chart to visualize the percentage of TV shows and movies for each release year.
-    - Change the graph type to a Horizontal stacked 100% bar chart.
-
-2. **Task 2:** Create a table showing the number of movies vs TV shows per release year.
-    - Change the visual type to Table, then add `release_year` as the Group By label, `title` as the Value metric, and `type` as a dimension.
-
-3. **Task 3:** Find the day Netflix added the largest number of movies/TV shows to their catalog.
-    - Move the `date_added` label to both the Y Axis and Value headings. Sort by descending to find the largest number.
-
-4. **Task 4:** Count how many titles are listed as 'Action & Adventure', 'TV Comedies', or 'Thrillers'.
-    - Add a filter for the `listed_in` field and select these three tags.
-
-5. **Task 5:** Of the titles listed in Task 4, count how many were released on or after 2015.
-    - Apply a filter for `release_year` and select 2015 and later.
-
-### Screenshot of Visualization with Filters
-![Filtered Visualization](path_to_screenshot)
-
----
-
-## Step #7: Finishing Touches
-
-1. Edit the titles of your charts for clarity.
-2. Publish your dashboard.
-3. Export your dashboard as a PDF.
-
-### Screenshot of Final Dashboard
-![Final Dashboard](path_to_screenshot)
-
----
-
-![My Dashboard](../mnt/data/image.png)
+![image](https://github.com/user-attachments/assets/c85323e5-393a-4433-a448-e7e52ced599e)
 
 ---
 
