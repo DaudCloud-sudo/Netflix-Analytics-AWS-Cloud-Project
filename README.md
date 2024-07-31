@@ -78,10 +78,9 @@ Download the required files:
 ## Step #5: Create QuickSight Visualization
 
 1. Drag `release_year` into the Y-Axis heading.
-2. Change the chart type to a don
-### Screenshot of First Visualization
-![First Visualization](path_to_screenshot)
-
+2. Change the chart type to donout.
+3. Play with all the options there.
+   
 ---
 
 ## Step #7: Finial Result
